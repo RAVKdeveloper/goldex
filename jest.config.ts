@@ -18,7 +18,7 @@ const config: Config = {
     '/node_modules/(?!goldex-icon-library)',
     '/node_modules/(?!goldex-ui-library)',
   ],
-  setupFilesAfterEnv: ['<rootDir>/configs/jest.setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/shared/configs/jest.setup.ts'],
 }
 
 export default config
