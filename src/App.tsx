@@ -1,8 +1,6 @@
-import { useEffect } from 'react'
+import { FC } from 'react'
 
-function App() {
-  useEffect(() => {}, [])
-
+const App: FC = () => {
   const a = 'werewrwer'
 
   return (
