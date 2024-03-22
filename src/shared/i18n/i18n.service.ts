@@ -7,6 +7,7 @@ import Backend from 'i18next-http-backend'
 i18next.use(Backend).use(LanguageDetextor).use(initReactI18next).init({
   debug: true,
   fallbackLng: 'ru',
+  returnEmptyString: false,
 })
 
 export default i18next
