@@ -3,4 +3,6 @@ export interface useSidebarType {
   changeLng: (lng: string) => void
   isOpenModal: boolean
   lng: string
+  isOpenSidebar: boolean
+  openSidebar: () => void
 }

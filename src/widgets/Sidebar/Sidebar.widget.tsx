@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Sidebar, SidebarMobile } from 'goldex-ui-library'
+import { Sidebar, SidebarMobile, Overflow } from 'goldex-ui-library'
 
 import { ObjLinksSidebar } from './assets/data.mock'
 
@@ -8,18 +8,16 @@ import { useSidebar } from './logic/useSidebar.model'
 import s from './assets/style.module.css'
 
 export const SidebarWidget: FC = () => {
-  const { open, changeLng, isOpenModal, lng } = useSidebar()
+  const { open, changeLng, isOpenModal, lng, isOpenSidebar, openSidebar } = useSidebar()
+
+  const openSidebarClass = `${s.sidebar} ${isOpenSidebar && s.open}`
 
   return (
     <>
       <div className={s.mobile}>
-        <SidebarMobile
-          avatarUrl='wjiewijrjioe'
-          userName='Rayan'
-          onOpenSidebar={() => confirm('ed')}
-        />
+        <SidebarMobile avatarUrl='wjiewijrjioe' userName='Rayan' onOpenSidebar={openSidebar} />
       </div>
-      <div className={s.sidebar}>
+      <div className={openSidebarClass}>
         <Sidebar
           balanceRub={32335}
           balanceUSDT={324243243}
@@ -40,6 +38,7 @@ export const SidebarWidget: FC = () => {
           cbAvatar={open}
         />
       </div>
+      {isOpenSidebar && <Overflow cbClose={openSidebar} />}
     </>
   )
 }
