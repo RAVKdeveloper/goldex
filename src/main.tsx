@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import './index.css'
+import './input.css'
 import './shared/i18n/i18n.service.ts'
 
-import { LanguageWrapper } from './shared/wrappers/Language/Language.wrapper.tsx'
+import { Layout } from './shared/wrappers/Layout/Layout.shared.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <LanguageWrapper>
+    <Layout>
       <App />
-    </LanguageWrapper>
+    </Layout>
   </React.StrictMode>,
 )

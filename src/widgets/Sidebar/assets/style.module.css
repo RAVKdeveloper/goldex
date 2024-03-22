@@ -1,0 +1,7 @@
+.mobile {
+  @apply fixed top-0 left-0 w-full z-10;
+}
+
+.sidebar {
+  @apply z-20 fixed opacity-0 pointer-events-none -left-56 transition;
+}
