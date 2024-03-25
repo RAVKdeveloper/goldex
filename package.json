@@ -17,13 +17,14 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
-    "goldex-ui-library": "^1.0.3",
+    "@tanstack/react-query": "^5.28.8",
+    "datejs": "^1.0.0-rc3",
+    "goldex-ui-library": "^1.0.4",
     "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-http-backend": "^2.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest-environment-jsdom": "^29.7.0",
-    "luxon": "^3.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^14.1.0",
@@ -32,8 +33,10 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.28.6",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.2",
+    "@types/datejs": "^0.0.36",
     "@types/jest": "^29.5.12",
     "@types/luxon": "^3.4.2",
     "@types/react": "^18.2.64",

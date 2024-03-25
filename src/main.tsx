@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+
 import App from './App.tsx'
 import './input.css'
 import './shared/i18n/i18n.service.ts'
