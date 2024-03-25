@@ -1,3 +1,13 @@
 {
-  "hello": "hello"
+  "title": {
+    "balanceInfo": "Information",
+    "invoices": "Invoices",
+    "transactions": "Transactions"
+  },
+  "subtitle": {
+    "balanceInfo": "This section provides all information on balances",
+    "invoices": "This section provides all invoice information",
+    "transactions": "This section provides all transaction information"
+  },
+  "profit": "Profit"
 }
