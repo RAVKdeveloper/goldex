@@ -1,5 +1,11 @@
 import { FC } from 'react'
 
+import s from './style.module.css'
+
 export const BalanceInfoPage: FC = () => {
-  return <main>hello</main>
+  return (
+    <main>
+      <div className={s.container}>hello</div>
+    </main>
+  )
 }

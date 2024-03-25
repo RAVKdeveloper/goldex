@@ -25,6 +25,9 @@ export default {
         circle: '50%',
         x: '0.625rem',
       },
+      maxWidth: {
+        container: '73.1875rem',
+      },
     },
   },
   plugins: [],
