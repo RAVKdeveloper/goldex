@@ -1,0 +1,11 @@
+.root {
+  @apply flex flex-col gap-1;
+}
+
+.title {
+  @apply font-medium text-2xl text-text-white;
+}
+
+.subtitle {
+  @apply text-sm text-text-white text-opacity-40;
+}

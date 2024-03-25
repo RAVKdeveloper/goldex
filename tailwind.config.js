@@ -17,6 +17,7 @@ export default {
         'avatar-blue': '#3782F2',
         'avatar-purple': '#8937F2',
         'avatar-pink': '#F94FB5',
+        'text-white': '#fff',
       },
       padding: {
         18: '4.750rem',
