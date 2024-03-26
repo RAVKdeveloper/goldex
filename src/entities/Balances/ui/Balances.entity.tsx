@@ -12,9 +12,15 @@ export const Balances: FC = () => {
 
   return (
     <div data-testid='balances' className={s.root}>
-      <BalanceCard icon={<RubleIcon />} currency='RUB' balance={435545435} />
-      <BalanceCard icon={<USDTIcon />} currency='USDT TRC-20' balance={435545435} />
-      <BalanceCard icon={<></>} currency={t('profit')} balance={435545435} />
+      <div className={s.container}>
+        <BalanceCard icon={<RubleIcon />} currency='RUB' balance={435545435} height='lg' />
+      </div>
+      <div className={s.container}>
+        <BalanceCard icon={<USDTIcon />} currency='USDT TRC-20' balance={435545435} height='lg' />
+      </div>
+      <div className={s.container}>
+        <BalanceCard currency={t('profit')} balance={435545435} height='lg' />
+      </div>
     </div>
   )
 }
