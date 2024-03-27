@@ -9,5 +9,16 @@
     "invoices": "This section provides all invoice information",
     "transactions": "This section provides all transaction information"
   },
-  "profit": "Profit"
+  "profit": "Profit",
+  "btn": {
+    "filter": "Filters",
+    "dowloand": {
+      "csv": "Dowloand CSV"
+    },
+    "adding": "Adding",
+    "withdraw": "Withdraw"
+  },
+  "textField": {
+    "searchPlaceholder": "Search..."
+  }
 }

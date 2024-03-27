@@ -1,0 +1,11 @@
+.root {
+  @apply flex justify-between items-center pt-6;
+}
+
+.row {
+  @apply md:flex md:items-center md:gap-2 hidden;
+}
+
+.rowMobile {
+  @apply md:hidden flex items-center gap-2;
+}
