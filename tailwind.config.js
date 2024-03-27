@@ -29,6 +29,9 @@ export default {
       maxWidth: {
         container: '73.1875rem',
       },
+      width: {
+        85: '22.6875rem',
+      },
     },
   },
   plugins: [],

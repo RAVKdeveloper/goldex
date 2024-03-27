@@ -20,7 +20,7 @@
     "@tanstack/react-query": "^5.28.8",
     "datejs": "^1.0.0-rc3",
     "goldex-icon-library": "^0.0.7",
-    "goldex-ui-library": "^1.0.4",
+    "goldex-ui-library": "^1.0.5",
     "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-http-backend": "^2.5.0",
