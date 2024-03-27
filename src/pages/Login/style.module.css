@@ -1,2 +1,23 @@
 .root {
+    @apply w-screen h-screen bg-bg-primary flex
+}
+
+.form {
+    @apply bg-bg-secondary flex flex-col w-form rounded-3xl p-6 m-auto
+}
+
+.header {
+    @apply flex flex-col gap-2 mb-6
+}
+
+.title {
+    @apply text-white text-2xl font-medium
+}
+
+.supportingText {
+    @apply text-sm text-text-secondary
+}
+
+.content {
+    @apply flex flex-col gap-4 mb-8
 }

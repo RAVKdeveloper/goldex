@@ -1,5 +1,10 @@
 import { FC } from 'react'
+import { Layout } from '../../shared/wrappers/Layout/Layout.shared'
 
 export const InvoicesPage: FC = () => {
-  return <main>Invoises</main>
+  return (
+    <Layout>
+      <main>Invoises</main>
+    </Layout>
+  )
 }
