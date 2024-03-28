@@ -19,7 +19,7 @@ export const AddingModalEntity: FC = () => {
     <>
       {isOpenModal && <Overflow isTransperant={false} cbClose={closeModal} />}
       <div className={`${s.wrapper} ${!isOpenModal && s.none}`}>
-        <Modal isOpen={isOpenModal}>
+        <Modal data-testid='modal' isOpen={isOpenModal}>
           <div className={s.popup}>
             <ModalHeader title={t('modal.adding.title')} paragraph='' cbClose={closeModal} />
             {step === 1 ? <StepOneAddingModal /> : <StepTwoAddingModal />}

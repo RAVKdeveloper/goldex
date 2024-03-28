@@ -14,7 +14,12 @@ export const StepTwoAddingModal: FC = React.forwardRef(() => {
 
   return (
     <article className={s.stepOne}>
-      <TextField label={t('labels.address')} name='addres' onChange={changeInput} />
+      <TextField
+        data-testid='field'
+        label={t('labels.address')}
+        name='addres'
+        onChange={changeInput}
+      />
       <div className={s.column}>
         <p className={s.currency}>
           <span>{t('labels.currensy')}</span> 2
