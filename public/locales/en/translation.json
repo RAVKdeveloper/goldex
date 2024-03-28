@@ -26,7 +26,8 @@
   "modal": {
     "adding": {
       "title": "Addition"
-    }
+    },
+    "withdraw": "Withdraw"
   },
   "placeholders": {
     "noselected": "Not selected"

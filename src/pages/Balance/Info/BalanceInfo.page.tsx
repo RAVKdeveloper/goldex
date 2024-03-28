@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import { SidebarWidget } from '../../../widgets/Sidebar/Sidebar.widget'
 import { BalancesActionsFeatures } from '../../../features'
-import { TitlePage, Balances, AddingModalEntity } from '../../../entities'
+import { TitlePage, Balances, AddingModalEntity, WithdrawModalEntity } from '../../../entities'
 
 import s from './style.module.css'
 
@@ -22,6 +22,7 @@ export const BalanceInfoPage: FC = () => {
         </div>
       </main>
       <AddingModalEntity />
+      <WithdrawModalEntity />
     </>
   )
 }

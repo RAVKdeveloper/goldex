@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing AddingModalEntity render and typing 1`] = `
+exports[`testing WithdrawModalEntity component render and typing 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -16,42 +16,26 @@ exports[`testing AddingModalEntity render and typing 1`] = `
           >
             <modalheader
               paragraph=""
-              title="modal.adding.title"
+              title="modal.withdraw"
             />
-            <article
-              class="stepOne"
+            <form
+              class="form"
             >
               <textfield
-                data-testid="field"
-                label="labels.address"
-                name="addres"
+                data-testid="amount"
+                label="labels.amount"
+                name="amount"
               />
-              <div
-                class="column"
-              >
-                <p
-                  class="currency"
-                >
-                  <span>
-                    labels.currensy
-                  </span>
-                   2
-                </p>
-                <p
-                  class="amount"
-                >
-                  <span>
-                    labels.amount
-                  </span>
-                   
-                  NaN
-                </p>
-              </div>
+              <textfield
+                data-testid="address"
+                label="labels.address"
+                name="address"
+              />
               <modalactions
-                btntextaction="btn.iSent"
+                btntextaction="btn.withdraw"
                 btntextcancel="btn.cansel"
               />
-            </article>
+            </form>
           </div>
         </modal>
       </div>
@@ -69,42 +53,26 @@ exports[`testing AddingModalEntity render and typing 1`] = `
         >
           <modalheader
             paragraph=""
-            title="modal.adding.title"
+            title="modal.withdraw"
           />
-          <article
-            class="stepOne"
+          <form
+            class="form"
           >
             <textfield
-              data-testid="field"
-              label="labels.address"
-              name="addres"
+              data-testid="amount"
+              label="labels.amount"
+              name="amount"
             />
-            <div
-              class="column"
-            >
-              <p
-                class="currency"
-              >
-                <span>
-                  labels.currensy
-                </span>
-                 2
-              </p>
-              <p
-                class="amount"
-              >
-                <span>
-                  labels.amount
-                </span>
-                 
-                NaN
-              </p>
-            </div>
+            <textfield
+              data-testid="address"
+              label="labels.address"
+              name="address"
+            />
             <modalactions
-              btntextaction="btn.iSent"
+              btntextaction="btn.withdraw"
               btntextcancel="btn.cansel"
             />
-          </article>
+          </form>
         </div>
       </modal>
     </div>
