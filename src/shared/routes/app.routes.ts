@@ -10,4 +10,5 @@ export const AppRoutes = {
   balanceTransaction: '/balance/transactions',
   accGeneral: '/account/general',
   accAll: '/account/all',
+  login: '/login',
 }

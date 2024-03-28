@@ -1,4 +1,10 @@
-import { ProjectsPage, InvoicesPage, TransactionsPage, BalanceInfoPage } from '../../pages'
+import {
+  ProjectsPage,
+  InvoicesPage,
+  TransactionsPage,
+  BalanceInfoPage,
+  LoginPage,
+} from '../../pages'
 
 import { AppRoutes } from './app.routes'
 
@@ -22,5 +28,10 @@ export const PagesRoutesWithComponents = [
     id: 4,
     route: AppRoutes.balanceInfo,
     Page: BalanceInfoPage,
+  },
+  {
+    id: 5,
+    route: AppRoutes.login,
+    Page: LoginPage,
   },
 ]
