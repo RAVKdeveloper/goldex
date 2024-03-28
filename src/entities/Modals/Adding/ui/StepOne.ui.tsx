@@ -19,7 +19,12 @@ export const StepOneAddingModal: FC = () => {
         variant='select'
         placeholder={t('placeholders.noselected')}
       />
-      <TextField label={t('labels.amount')} name='amount' onChange={changeInput} />
+      <TextField
+        data-testid='field'
+        label={t('labels.amount')}
+        name='amount'
+        onChange={changeInput}
+      />
       <ModalActions
         btnTextCancel={t('btn.cansel')}
         btnTextAction={t('btn.adding')}
