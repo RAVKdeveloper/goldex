@@ -1,0 +1,15 @@
+.wrapper {
+  @apply top-0 left-0 fixed w-full h-full flex items-center justify-center z-50 opacity-100 pointer-events-auto transition;
+}
+
+.wrapper.none {
+  @apply opacity-0 pointer-events-none transition;
+}
+
+.popup {
+  @apply w-default-popup bg-bg-primary rounded-2xl;
+}
+
+.form {
+  @apply px-6 flex flex-col gap-4;
+}
