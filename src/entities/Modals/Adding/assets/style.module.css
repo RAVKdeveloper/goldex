@@ -1,0 +1,35 @@
+.wrapper {
+  @apply top-0 left-0 fixed w-full h-full flex items-center justify-center z-50 opacity-100 pointer-events-auto transition;
+}
+
+.wrapper.none {
+  @apply opacity-0 pointer-events-none transition;
+}
+
+.popup {
+  @apply w-default-popup bg-bg-primary rounded-2xl;
+}
+
+.stepOne {
+  @apply px-6;
+}
+
+.column {
+  @apply flex flex-col pt-4;
+}
+
+.currency {
+  @apply flex justify-between items-center text-text-white;
+}
+
+.currency span {
+  @apply text-text-white opacity-40;
+}
+
+.amount {
+  @apply flex justify-between items-center text-text-accent;
+}
+
+.amount span {
+  @apply text-text-white opacity-40;
+}

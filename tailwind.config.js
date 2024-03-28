@@ -18,6 +18,7 @@ export default {
         'avatar-purple': '#8937F2',
         'avatar-pink': '#F94FB5',
         'text-white': '#fff',
+        'text-accent': '#73E5CF',
       },
       padding: {
         18: '4.750rem',
@@ -31,6 +32,7 @@ export default {
       },
       width: {
         85: '22.6875rem',
+        'default-popup': '31.25rem',
       },
     },
   },

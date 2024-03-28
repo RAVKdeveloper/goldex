@@ -9,5 +9,31 @@
     "invoices": "This section provides all invoice information",
     "transactions": "This section provides all transaction information"
   },
-  "profit": "Profit"
+  "profit": "Profit",
+  "btn": {
+    "filter": "Filters",
+    "dowloand": {
+      "csv": "Dowloand CSV"
+    },
+    "adding": "Adding",
+    "withdraw": "Withdraw",
+    "cansel": "Cansel",
+    "iSent": "I sent"
+  },
+  "textField": {
+    "searchPlaceholder": "Search..."
+  },
+  "modal": {
+    "adding": {
+      "title": "Addition"
+    }
+  },
+  "placeholders": {
+    "noselected": "Not selected"
+  },
+  "labels": {
+    "currensy": "Currency",
+    "amount": "Amount",
+    "address": "Wallet address"
+  }
 }
