@@ -4,20 +4,17 @@ import { useTranslation } from 'react-i18next'
 
 import { TitlePage, Balances } from '../../../entities'
 
-import { Layout } from '../../../shared/wrappers/Layout/Layout.shared'
 import s from './style.module.css'
 
 export const BalanceInfoPage: FC = () => {
   const { t } = useTranslation()
 
   return (
-    <Layout>
-      <main>
-        <div className={s.container}>
-          <TitlePage title={t('title.balanceInfo')} subtitle={t('subtitle.balanceInfo')} />
-          <Balances />
-        </div>
-      </main>
-    </Layout>
+    <main>
+      <div className={s.container}>
+        <TitlePage title={t('title.balanceInfo')} subtitle={t('subtitle.balanceInfo')} />
+        <Balances />
+      </div>
+    </main>
   )
 }
