@@ -16,9 +16,24 @@
       "csv": "Загрузить CSV"
     },
     "adding": "Добавить",
-    "withdraw": "Вывести"
+    "withdraw": "Вывести",
+    "cansel": "Отмена",
+    "iSent": "Я отправил"
   },
   "textField": {
     "searchPlaceholder": "Поиск..."
+  },
+  "modal": {
+    "adding": {
+      "title": "Добавление"
+    }
+  },
+  "placeholders": {
+    "noselected": "Не выбрана"
+  },
+  "labels": {
+    "currensy": "Валюта",
+    "amount": "Сумма",
+    "address": "Адресс кошелька"
   }
 }

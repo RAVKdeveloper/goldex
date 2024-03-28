@@ -16,9 +16,24 @@
       "csv": "Dowloand CSV"
     },
     "adding": "Adding",
-    "withdraw": "Withdraw"
+    "withdraw": "Withdraw",
+    "cansel": "Cansel",
+    "iSent": "I sent"
   },
   "textField": {
     "searchPlaceholder": "Search..."
+  },
+  "modal": {
+    "adding": {
+      "title": "Addition"
+    }
+  },
+  "placeholders": {
+    "noselected": "Not selected"
+  },
+  "labels": {
+    "currensy": "Currency",
+    "amount": "Amount",
+    "address": "Wallet address"
   }
 }
