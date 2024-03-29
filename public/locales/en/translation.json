@@ -29,7 +29,8 @@
     "adding": {
       "title": "Addition"
     },
-    "withdraw": "Withdraw"
+    "withdraw": "Withdraw",
+    "invoices": "Invoice"
   },
   "placeholders": {
     "noselected": "Not selected"
@@ -56,5 +57,18 @@
   "loginTitle": "Login",
   "loginSupText": "Please log in to your account to continue.",
   "login": "Login",
-  "password": "Password"
+  "password": "Password",
+  "invoice": {
+    "holder": "Holder",
+    "cardNumber": "Card number",
+    "expired": "Expiration date",
+    "currency": "Currency",
+    "amount": "Amount",
+    "status": "Status",
+    "idRemote": "ID remote",
+    "idClient": "ID client",
+    "team": "Team",
+    "created": "Created",
+    "updated": "Updated"
+  }
 }

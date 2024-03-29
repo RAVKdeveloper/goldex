@@ -1,0 +1,28 @@
+.wrapper {
+  @apply fixed w-full h-full top-0 left-0 flex items-center justify-center
+   bg-black z-50 bg-opacity-40 pointer-events-auto opacity-100 transition;
+}
+
+.wrapper.none {
+  @apply opacity-0 pointer-events-none transition;
+}
+
+.container {
+  @apply w-default-popup bg-bg-primary rounded-2xl;
+}
+
+.content {
+  @apply flex flex-col gap-1.5 px-6 pb-6;
+}
+
+.row {
+  @apply flex items-center justify-between;
+}
+
+.key {
+  @apply text-sm text-text-white text-opacity-40;
+}
+
+.value {
+  @apply text-sm text-text-white;
+}
