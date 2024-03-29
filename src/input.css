@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url('public/fonts/RobotoMono-SemiBold.ttf');
-    font-weight: 600;
+  font-family: 'Roboto Mono';
+  src: url('public/fonts/RobotoMono-SemiBold.ttf');
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url('public/fonts/RobotoMono-Medium.ttf');
-    font-weight: 500;
+  font-family: 'Roboto Mono';
+  src: url('public/fonts/RobotoMono-Medium.ttf');
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url('public/fonts/RobotoMono-Regular.ttf');
-    font-weight: 400;
+  font-family: 'Roboto Mono';
+  src: url('public/fonts/RobotoMono-Regular.ttf');
+  font-weight: 400;
 }
 
 html {
-    font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
 }

@@ -1,3 +1,7 @@
 import { combineReducers } from '@reduxjs/toolkit'
 
-export const rootReduser = combineReducers({})
+import balanceInfoSlice from '../slices/balanceInfo/balanceInfo.slice'
+
+export const rootReduser = combineReducers({
+  balanceInfoSlice,
+})

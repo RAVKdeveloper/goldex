@@ -9,5 +9,52 @@
     "invoices": "This section provides all invoice information",
     "transactions": "This section provides all transaction information"
   },
-  "profit": "Profit"
+  "profit": "Profit",
+  "btn": {
+    "filter": "Filters",
+    "dowloand": {
+      "csv": "Dowloand CSV"
+    },
+    "adding": "Adding",
+    "withdraw": "Withdraw",
+    "cansel": "Cansel",
+    "iSent": "I sent",
+    "next": "Next",
+    "prev": "Back"
+  },
+  "textField": {
+    "searchPlaceholder": "Search..."
+  },
+  "modal": {
+    "adding": {
+      "title": "Addition"
+    },
+    "withdraw": "Withdraw"
+  },
+  "placeholders": {
+    "noselected": "Not selected"
+  },
+  "labels": {
+    "currensy": "Currency",
+    "amount": "Amount",
+    "address": "Wallet address"
+  },
+  "table": {
+    "header": {
+      "bankClient": "Bank client",
+      "idClient": "ID client",
+      "method": "Method",
+      "date": "Date & Time",
+      "status": "Status",
+      "sum": "Amount"
+    }
+  },
+  "notFounds": {
+    "title": "Data not found",
+    "text": "There are currently no active data. We recommend trying again later or refreshing the page"
+  },
+  "loginTitle": "Login",
+  "loginSupText": "Please log in to your account to continue.",
+  "login": "Login",
+  "password": "Password"
 }

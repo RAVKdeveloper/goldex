@@ -20,6 +20,7 @@ export default {
         'avatar-pink': '#F94FB5',
         'text-secondary': '#FFFFFF66',
         'text-white': '#fff',
+        'text-accent': '#73E5CF',
       },
       padding: {
         18: '4.750rem',
@@ -28,11 +29,14 @@ export default {
         circle: '50%',
         x: '0.625rem',
       },
-      width: {
-        form: '31.25rem',
-      },
       maxWidth: {
         container: '73.1875rem',
+        table: '70.6875rem',
+      },
+      width: {
+        85: '22.6875rem',
+        'default-popup': '31.25rem',
+        form: '31.25rem',
       },
     },
   },
