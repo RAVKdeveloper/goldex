@@ -1,0 +1,11 @@
+.root {
+  @apply pt-5 pb-12;
+}
+
+.table {
+  @apply border border-white border-opacity-5 rounded-t-2xl;
+}
+
+.pagination {
+  @apply border border-white border-opacity-5 rounded-b-2xl max-w-table;
+}
