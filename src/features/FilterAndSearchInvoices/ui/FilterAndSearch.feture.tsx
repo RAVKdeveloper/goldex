@@ -11,13 +11,18 @@ export const FilterAndSearchInvoicesFeature: FC = () => {
   const { t } = useTranslation()
 
   return (
-    <section className={s.root}>
-      <TextField variant='search' placeholder={t('textField.searchPlaceholder')} />
+    <section className={s.root} data-testid='root'>
+      <TextField
+        variant='search'
+        placeholder={t('textField.searchPlaceholder')}
+        data-testid='textbox'
+      />
       <div className={s.row}>
         <Button
           variant='secondary'
           icon={<FilterIcon width={20} height={20} opacity={1} />}
           size='sm'
+          data-testid='btnFilter'
         >
           {t('btn.filter')}
         </Button>
@@ -26,6 +31,7 @@ export const FilterAndSearchInvoicesFeature: FC = () => {
           icon={<DowloandIcon width={20} height={20} opacity={1} color='#000' />}
           size='sm'
           style={{ textWrap: 'nowrap' }}
+          data-testid='btnDowloand'
         >
           {t('btn.dowloand.csv')}
         </Button>
