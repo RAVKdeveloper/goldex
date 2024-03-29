@@ -1,0 +1,15 @@
+.root {
+  @apply flex justify-center items-center md:pt-40 pt-28;
+}
+
+.content {
+  @apply flex flex-col items-center;
+}
+
+.title {
+  @apply text-base text-white font-medium mt-4;
+}
+
+.text {
+  @apply text-white text-opacity-40 text-sm text-center max-w-96;
+}

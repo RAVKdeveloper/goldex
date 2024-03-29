@@ -29,6 +29,7 @@ export default {
       },
       maxWidth: {
         container: '73.1875rem',
+        table: '70.6875rem',
       },
       width: {
         85: '22.6875rem',
