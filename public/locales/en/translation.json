@@ -52,5 +52,9 @@
   "notFounds": {
     "title": "Data not found",
     "text": "There are currently no active data. We recommend trying again later or refreshing the page"
-  }
+  },
+  "loginTitle": "Login",
+  "loginSupText": "Please log in to your account to continue.",
+  "login": "Login",
+  "password": "Password"
 }
