@@ -11,12 +11,14 @@ export default {
     extend: {
       colors: {
         'bg-primary': '#1F1F24',
+        'bg-secondary': '#FFFFFF0A',
         'avatar-green': '#A8F1E3',
         'avatar-lightPurple': '#BE9DF1',
         'avatar-yellow': '#F29C37',
         'avatar-blue': '#3782F2',
         'avatar-purple': '#8937F2',
         'avatar-pink': '#F94FB5',
+        'text-secondary': '#FFFFFF66',
         'text-white': '#fff',
         'text-accent': '#73E5CF',
       },
@@ -26,6 +28,9 @@ export default {
       borderRadius: {
         circle: '50%',
         x: '0.625rem',
+      },
+      width: {
+        form: '31.25rem',
       },
       maxWidth: {
         container: '73.1875rem',
