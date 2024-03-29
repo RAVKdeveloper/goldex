@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { SidebarWidget } from '../../widgets/Sidebar/Sidebar.widget'
 import { InvoicesTableWidget } from '../../widgets'
 import { FilterAndSearchInvoicesFeature } from '../../features'
-import { TitlePage } from '../../entities'
+import { TitlePage, MoreInfoInvoicesEntity } from '../../entities'
 
 import s from './style.module.css'
 
@@ -22,6 +22,7 @@ export const InvoicesPage: FC = () => {
           <InvoicesTableWidget />
         </div>
       </main>
+      <MoreInfoInvoicesEntity />
     </>
   )
 }

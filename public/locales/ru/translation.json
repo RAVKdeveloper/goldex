@@ -29,7 +29,8 @@
     "adding": {
       "title": "Добавление"
     },
-    "withdraw": "Вывод"
+    "withdraw": "Вывод",
+    "invoices": "Счёт"
   },
   "placeholders": {
     "noselected": "Не выбрана"
@@ -56,5 +57,18 @@
   "loginTitle": "Вход",
   "loginSupText": "Для продолжения войдите в свою учетную запись",
   "login": "Логин",
-  "password": "Пароль"
+  "password": "Пароль",
+  "invoice": {
+    "holder": "Держатель",
+    "cardNumber": "Номер карты",
+    "expired": "Срок действия",
+    "currency": "Валюта",
+    "amount": "Сумма",
+    "status": "Статус",
+    "idRemote": "ID удаленный",
+    "idClient": "ID клиента",
+    "team": "Команда",
+    "created": "Создано",
+    "updated": "Обновлено"
+  }
 }
