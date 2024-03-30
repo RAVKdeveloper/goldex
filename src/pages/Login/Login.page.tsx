@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
-import { LoginFormEntity } from '../../entities'
+import { LoginFormEntity } from '@/entities'
+
 import s from './style.module.css'
 
 export const LoginPage: FC = () => {

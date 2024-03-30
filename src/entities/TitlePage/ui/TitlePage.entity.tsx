@@ -1,8 +1,7 @@
 import { FC } from 'react'
 
-import s from '../assets/style.module.css'
-
 import type { TitlePageType } from '../assets/TitlePage.type'
+import s from '../assets/style.module.css'
 
 export const TitlePage: FC<TitlePageType> = ({ title, subtitle }) => {
   return (

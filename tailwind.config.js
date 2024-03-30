@@ -38,6 +38,9 @@ export default {
         'default-popup': '31.25rem',
         form: '31.25rem',
       },
+      fontFamily: {
+        body: ['Roboto Mono'],
+      },
     },
   },
   plugins: [],
