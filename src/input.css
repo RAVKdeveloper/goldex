@@ -5,19 +5,19 @@
 @layer base {
   @font-face {
     font-family: 'Roboto Mono';
-    src: url('/public/fonts/RobotoMono-SemiBold.ttf');
+    src: url('/fonts/RobotoMono-SemiBold.ttf');
     font-weight: 600;
   }
 
   @font-face {
     font-family: 'Roboto Mono';
-    src: url('/public/fonts/RobotoMono-Medium.ttf');
+    src: url('/fonts/RobotoMono-Medium.ttf');
     font-weight: 500;
   }
 
   @font-face {
     font-family: 'Roboto Mono';
-    src: url('/public/fonts/RobotoMono-Regular.ttf');
+    src: url('/fonts/RobotoMono-Regular.ttf');
     font-weight: 400;
   }
 
