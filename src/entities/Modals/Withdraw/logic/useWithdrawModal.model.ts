@@ -8,9 +8,8 @@ import {
   setIsOpenWithdrawModal,
 } from '../../../../shared/service/store/slices/balanceInfo/balanceInfo.slice'
 
-import { schema } from './yup.schema'
-
 import type { useWithdrawModalType, FormData } from '../assets/useWithdrawModal.type'
+import { schema } from './yup.schema'
 
 export const useWithdrawModal = (): useWithdrawModalType => {
   const { isOpenWithdrawModal } = useAppSelector(balanceInfoSelector)
