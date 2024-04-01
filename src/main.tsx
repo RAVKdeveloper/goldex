@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import App from './App.tsx'
-import './input.css'
-import './shared/i18n/i18n.service.ts'
+import { BrowserRouter } from 'react-router-dom'
 
-import { Layout } from './shared/wrappers/Layout/Layout.shared.tsx'
+import App from './app/App.tsx'
+import './input.css'
+import './app/i18n/i18n.service.ts'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Layout>
+    <BrowserRouter>
       <App />
-    </Layout>
+    </BrowserRouter>
   </React.StrictMode>,
 )

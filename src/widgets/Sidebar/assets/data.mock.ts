@@ -1,4 +1,4 @@
-import { AppRoutes } from '../../../shared/routes/app.routes'
+import { AppRoutes } from '../../../app/routes/app.routes'
 
 export const ObjLinksSidebar = {
   Dashboard: '/',
