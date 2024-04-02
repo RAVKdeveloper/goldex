@@ -26,15 +26,13 @@ export const useLoginForm = (): useLoginFormType => {
     resolver: yupResolver<Body_login>(schema),
   })
   const [isOpenPass, setIsOpenPass] = useState<boolean>(false)
-  const { mutate, isSuccess } = useLoginMutation()
+  const { mutate } = useLoginMutation()
   const navigate = useNavigate()
 
   const fetchLogin = (data: Body_login) => {
     try {
       mutate({ requestBody: data })
-      if (isSuccess) {
-        navigate(AppRoutes.balanceInfo)
-      }
+      navigate(AppRoutes.balanceInfo)
     } catch {
       alert('Error')
     }

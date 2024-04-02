@@ -147,7 +147,7 @@ export const useInvoicesTable = (): useInvoicesTableType => {
         info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
       },
     ],
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
     [],
   )
 
@@ -186,7 +186,7 @@ export const useInvoicesTable = (): useInvoicesTableType => {
         accessor: 'info',
       },
     ],
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
     [language],
   )
 

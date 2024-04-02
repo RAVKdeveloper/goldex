@@ -32,14 +32,12 @@ export const useAddingBalance = (): useAddingBalanceType => {
 
   const closeModal = useCallback(() => {
     dispatch(setIsOpenAddingModal(false))
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const canselAdding = useCallback(() => {
     if (stepAdding === 2) return dispatch(setStepAdding(1))
 
     return closeModal()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stepAdding])
 
   const isOkStepOne = amount ? true : false

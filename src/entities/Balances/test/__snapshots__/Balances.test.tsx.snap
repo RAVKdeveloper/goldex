@@ -14,26 +14,6 @@ exports[`testing Balances component render 1`] = `
         >
           <balancecard
             balance="435545435"
-            currency="RUB"
-            height="lg"
-            icon="[object Object]"
-          />
-        </div>
-        <div
-          class="container"
-        >
-          <balancecard
-            balance="435545435"
-            currency="USDT TRC-20"
-            height="lg"
-            icon="[object Object]"
-          />
-        </div>
-        <div
-          class="container"
-        >
-          <balancecard
-            balance="435545435"
             currency="profit"
             height="lg"
           />
@@ -46,26 +26,6 @@ exports[`testing Balances component render 1`] = `
       class="root"
       data-testid="balances"
     >
-      <div
-        class="container"
-      >
-        <balancecard
-          balance="435545435"
-          currency="RUB"
-          height="lg"
-          icon="[object Object]"
-        />
-      </div>
-      <div
-        class="container"
-      >
-        <balancecard
-          balance="435545435"
-          currency="USDT TRC-20"
-          height="lg"
-          icon="[object Object]"
-        />
-      </div>
       <div
         class="container"
       >
