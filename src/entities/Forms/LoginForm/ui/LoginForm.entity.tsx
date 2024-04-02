@@ -22,7 +22,7 @@ export const LoginFormEntity: FC = () => {
       </div>
       <div className={s.content}>
         <Controller
-          name='login'
+          name='username'
           control={control}
           render={({ field }) => {
             return (

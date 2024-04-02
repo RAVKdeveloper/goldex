@@ -1,7 +1,7 @@
 import { Control, SubmitHandler, UseFormHandleSubmit } from 'react-hook-form'
 
 export interface FormData {
-  login: string
+  username: string
   password: string
 }
 

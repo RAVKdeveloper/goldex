@@ -6,7 +6,6 @@ import {
   LoginPage,
   NotFoundPage,
 } from '@/pages'
-import App from '../App'
 
 import { AppRoutes } from './app.routes'
 
@@ -36,11 +35,6 @@ export const PagesRoutesWithComponents = [
     route: '*',
     Page: NotFoundPage,
   },
-  {
-    id: 6,
-    route: '/',
-    Page: App,
-  },
 ]
 
 export const PagesRoutesNoAuth = [
@@ -53,10 +47,5 @@ export const PagesRoutesNoAuth = [
     id: 404,
     route: '*',
     Page: NotFoundPage,
-  },
-  {
-    id: 1,
-    route: '/',
-    Page: App,
   },
 ]
