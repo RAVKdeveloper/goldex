@@ -5,7 +5,7 @@ export const useSchemaLoginValidate = () => {
   const { t } = useTranslation()
 
   const schema = yup.object().shape({
-    login: yup
+    username: yup
       .string()
       .required(t('validateErrors.empty'))
       .min(5, t('validateErrors.min', { min: 5 }))

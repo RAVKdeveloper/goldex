@@ -9,7 +9,7 @@ export const useAuth = (): useAuthType => {
   const dispatch = useAppDispatch()
 
   useEffect(() => {
-    dispatch(setAuth(true))
+    dispatch(setAuth(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
