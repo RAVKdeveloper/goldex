@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
 import { QueryClientProvider } from '@tanstack/react-query'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { Provider } from 'react-redux'
 
 import { queryClient } from '@/shared/service/api/api.instance'
@@ -16,6 +17,7 @@ const App: FC = () => {
           <RoutesWrapper />
         </Layout>
       </Provider>
+      <ReactQueryDevtools />
     </QueryClientProvider>
   )
 }
