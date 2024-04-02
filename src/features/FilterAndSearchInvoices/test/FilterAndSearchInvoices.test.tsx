@@ -3,6 +3,17 @@ import { userEvent } from '@testing-library/user-event'
 
 import { FilterAndSearchInvoicesFeature } from '../..'
 
+jest.mock('react-i18next', () => ({
+  useTranslation: () => {
+    return {
+      t: (str: string) => str,
+      i18n: {
+        changeLanguage: () => new Promise(() => {}),
+      },
+    }
+  },
+}))
+
 describe('testing FilterAndSearchInvoices', () => {
   it('render and click buttons and typing search', () => {
     const user = userEvent.setup()

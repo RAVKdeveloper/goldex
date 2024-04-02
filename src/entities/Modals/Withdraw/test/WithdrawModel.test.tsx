@@ -6,6 +6,17 @@ import { WithdrawModalEntity } from '../ui/WithdrawModal.entity'
 
 jest.mock('react-redux')
 
+jest.mock('react-i18next', () => ({
+  useTranslation: () => {
+    return {
+      t: (str: string) => str,
+      i18n: {
+        changeLanguage: () => new Promise(() => {}),
+      },
+    }
+  },
+}))
+
 describe('testing WithdrawModalEntity component', () => {
   it('render and typing', () => {
     jest.spyOn(reduxHooks, 'useAppDispatch')

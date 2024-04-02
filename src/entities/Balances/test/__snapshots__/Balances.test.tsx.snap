@@ -1,99 +1,81 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing LoginFormEntity component render and typing 1`] = `
+exports[`testing Balances component render 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <form
-        class="form"
-        data-testid="loginForm"
+      <div
+        class="root"
+        data-testid="balances"
       >
         <div
-          class="header"
+          class="container"
         >
-          <h1
-            class="title"
-          >
-            loginTitle
-          </h1>
-          <p
-            class="supportingText"
-          >
-            loginSupText
-          </p>
+          <balancecard
+            balance="435545435"
+            currency="RUB"
+            height="lg"
+            icon="[object Object]"
+          />
         </div>
         <div
-          class="content"
+          class="container"
         >
-          <textfield
-            data-testid="login"
-            label="login"
-            name="username"
-            variant="input"
-          />
-          <textfield
-            data-testid="password"
+          <balancecard
+            balance="435545435"
+            currency="USDT TRC-20"
+            height="lg"
             icon="[object Object]"
-            label="password"
-            name="password"
-            type="password"
-            variant="input"
           />
         </div>
-        <button
-          disabled=""
-          variant="primary"
+        <div
+          class="container"
         >
-          Войти
-        </button>
-      </form>
+          <balancecard
+            balance="435545435"
+            currency="profit"
+            height="lg"
+          />
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <form
-      class="form"
-      data-testid="loginForm"
+    <div
+      class="root"
+      data-testid="balances"
     >
       <div
-        class="header"
+        class="container"
       >
-        <h1
-          class="title"
-        >
-          loginTitle
-        </h1>
-        <p
-          class="supportingText"
-        >
-          loginSupText
-        </p>
+        <balancecard
+          balance="435545435"
+          currency="RUB"
+          height="lg"
+          icon="[object Object]"
+        />
       </div>
       <div
-        class="content"
+        class="container"
       >
-        <textfield
-          data-testid="login"
-          label="login"
-          name="username"
-          variant="input"
-        />
-        <textfield
-          data-testid="password"
+        <balancecard
+          balance="435545435"
+          currency="USDT TRC-20"
+          height="lg"
           icon="[object Object]"
-          label="password"
-          name="password"
-          type="password"
-          variant="input"
         />
       </div>
-      <button
-        disabled=""
-        variant="primary"
+      <div
+        class="container"
       >
-        Войти
-      </button>
-    </form>
+        <balancecard
+          balance="435545435"
+          currency="profit"
+          height="lg"
+        />
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

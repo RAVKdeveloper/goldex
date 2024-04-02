@@ -7,6 +7,17 @@ import { BalancesActionsFeatures } from '../..'
 
 jest.mock('react-redux')
 
+jest.mock('react-i18next', () => ({
+  useTranslation: () => {
+    return {
+      t: (str: string) => str,
+      i18n: {
+        changeLanguage: () => new Promise(() => {}),
+      },
+    }
+  },
+}))
+
 describe('testing BalancesActionsFeatures component', () => {
   it('render and clicks', () => {
     jest.spyOn(reduxHooks, 'useAppDispatch')

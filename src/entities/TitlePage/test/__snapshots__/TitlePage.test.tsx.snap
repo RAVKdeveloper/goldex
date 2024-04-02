@@ -1,99 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing LoginFormEntity component render and typing 1`] = `
+exports[`testing TitlePage component render 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <form
-        class="form"
-        data-testid="loginForm"
-      >
-        <div
-          class="header"
-        >
-          <h1
-            class="title"
-          >
-            loginTitle
-          </h1>
-          <p
-            class="supportingText"
-          >
-            loginSupText
-          </p>
-        </div>
-        <div
-          class="content"
-        >
-          <textfield
-            data-testid="login"
-            label="login"
-            name="username"
-            variant="input"
-          />
-          <textfield
-            data-testid="password"
-            icon="[object Object]"
-            label="password"
-            name="password"
-            type="password"
-            variant="input"
-          />
-        </div>
-        <button
-          disabled=""
-          variant="primary"
-        >
-          Войти
-        </button>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class="form"
-      data-testid="loginForm"
-    >
       <div
-        class="header"
+        class="root"
+        data-testid="titlapage"
       >
         <h1
           class="title"
         >
-          loginTitle
+          Title
         </h1>
         <p
-          class="supportingText"
+          class="subtitle"
         >
-          loginSupText
+          Subtitle
         </p>
       </div>
-      <div
-        class="content"
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="root"
+      data-testid="titlapage"
+    >
+      <h1
+        class="title"
       >
-        <textfield
-          data-testid="login"
-          label="login"
-          name="username"
-          variant="input"
-        />
-        <textfield
-          data-testid="password"
-          icon="[object Object]"
-          label="password"
-          name="password"
-          type="password"
-          variant="input"
-        />
-      </div>
-      <button
-        disabled=""
-        variant="primary"
+        Title
+      </h1>
+      <p
+        class="subtitle"
       >
-        Войти
-      </button>
-    </form>
+        Subtitle
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
