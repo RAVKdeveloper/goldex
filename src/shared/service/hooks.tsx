@@ -1,1 +1,1 @@
-export { useLoginMutation } from './api/auth/hooks/useLoginMutation.hook'
+export { useLoginMutation } from './api/hooks/useLoginMutation.hook'

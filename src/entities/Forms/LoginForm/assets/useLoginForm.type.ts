@@ -1,9 +1,5 @@
 import { Control, SubmitHandler, UseFormHandleSubmit } from 'react-hook-form'
-
-export interface FormData {
-  username: string
-  password: string
-}
+import { Body_login } from '@/shared/service/client'
 
 type ErrorFields = {
   login: string | undefined
@@ -11,12 +7,12 @@ type ErrorFields = {
 }
 
 export interface useLoginFormType {
-  handleSubmit: UseFormHandleSubmit<FormData, undefined>
+  handleSubmit: UseFormHandleSubmit<Body_login, undefined>
   isValid: boolean
-  submit: SubmitHandler<FormData>
+  submit: SubmitHandler<Body_login>
   errorFields: ErrorFields
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  control: Control<FormData, any>
+  control: Control<Body_login, any>
   checkPassword: () => void
   isOpenPass: boolean
 }
