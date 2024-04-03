@@ -5,6 +5,7 @@ import {
   BalanceInfoPage,
   LoginPage,
   NotFoundPage,
+  AccountGeneralPage,
 } from '@/pages'
 
 import { AppRoutes } from './app.routes'
@@ -32,6 +33,11 @@ export const PagesRoutesWithComponents = [
   },
   {
     id: 5,
+    route: AppRoutes.accGeneral,
+    Page: AccountGeneralPage,
+  },
+  {
+    id: 6,
     route: '*',
     Page: NotFoundPage,
   },

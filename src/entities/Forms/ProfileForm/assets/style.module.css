@@ -1,0 +1,23 @@
+.form {
+    @apply flex flex-col max-w-account-form w-full bg-bg-secondary rounded-xl border border-bg-secondary
+}
+
+.header {
+    @apply flex flex-col gap-1 py-3 px-4 border-y border-bg-secondary
+}
+
+.title {
+    @apply text-text-white font-medium
+}
+
+.supportingText {
+    @apply text-sm text-text-secondary
+}
+
+.content {
+    @apply flex gap-5 py-4 px-4 w-full sm:w-10/12
+}
+
+.button {
+    @apply flex justify-end py-3 px-4 border-y border-bg-secondary
+}
