@@ -9,25 +9,30 @@ exports[`testing InvoicesTableWidget render 1`] = `
         class="root"
         data-testid="table"
       >
-        <div
-          class="table"
+        <section
+          class="root"
+          data-testid="notFound"
         >
-          <table
-            columns="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-            data="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-          />
-        </div>
-        <div
-          class="pagination"
-        >
-          <pagination
-            btnnext="btn.next"
-            btnprev="btn.prev"
-            currentpage="5"
-            pages="20"
-            textcontent="Page 5 of 20"
-          />
-        </div>
+          <div
+            class="content"
+          >
+            <invoicesicon
+              height="32"
+              opacity="1"
+              width="32"
+            />
+            <h3
+              class="title"
+            >
+              notFounds.title
+            </h3>
+            <p
+              class="text"
+            >
+              notFounds.text
+            </p>
+          </div>
+        </section>
       </section>
     </div>
   </body>,
@@ -36,25 +41,30 @@ exports[`testing InvoicesTableWidget render 1`] = `
       class="root"
       data-testid="table"
     >
-      <div
-        class="table"
+      <section
+        class="root"
+        data-testid="notFound"
       >
-        <table
-          columns="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-          data="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-        />
-      </div>
-      <div
-        class="pagination"
-      >
-        <pagination
-          btnnext="btn.next"
-          btnprev="btn.prev"
-          currentpage="5"
-          pages="20"
-          textcontent="Page 5 of 20"
-        />
-      </div>
+        <div
+          class="content"
+        >
+          <invoicesicon
+            height="32"
+            opacity="1"
+            width="32"
+          />
+          <h3
+            class="title"
+          >
+            notFounds.title
+          </h3>
+          <p
+            class="text"
+          >
+            notFounds.text
+          </p>
+        </div>
+      </section>
     </section>
   </div>,
   "debug": [Function],

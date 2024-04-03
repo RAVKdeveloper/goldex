@@ -111,34 +111,6 @@ exports[`testing MoreInfoInvoices render 1`] = `
                 <span
                   class="key"
                 >
-                  invoice.amount
-                </span>
-                <span
-                  class="value"
-                >
-                  1,240
-                </span>
-              </p>
-              <p
-                class="row"
-              >
-                <span
-                  class="key"
-                >
-                  invoice.status
-                </span>
-                <span
-                  class="value"
-                >
-                  Оплачено
-                </span>
-              </p>
-              <p
-                class="row"
-              >
-                <span
-                  class="key"
-                >
                   ID
                 </span>
                 <span
@@ -294,34 +266,6 @@ exports[`testing MoreInfoInvoices render 1`] = `
                 class="value"
               >
                 Валюта
-              </span>
-            </p>
-            <p
-              class="row"
-            >
-              <span
-                class="key"
-              >
-                invoice.amount
-              </span>
-              <span
-                class="value"
-              >
-                1,240
-              </span>
-            </p>
-            <p
-              class="row"
-            >
-              <span
-                class="key"
-              >
-                invoice.status
-              </span>
-              <span
-                class="value"
-              >
-                Оплачено
               </span>
             </p>
             <p
