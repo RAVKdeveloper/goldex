@@ -75,5 +75,6 @@
     "empty": "Required field",
     "min": "Minimum number of characters: {{ min }}",
     "max": "Maximum number of characters: {{ max }}"
-  }
+  },
+  "paginationLabel": "Page {{ current }} of {{ total }}"
 }

@@ -5,8 +5,8 @@ import { UserInvoiceIcon, VisaIcon, InfoIcon } from 'goldex-icon-library'
 
 import { useTranslation } from 'react-i18next'
 
-// eslint-disable-next-line max-len
-import { useMoreInfoModal } from '../../../entities/Modals/MoreInfoInvoices/logic/useMoreInfoModal.model'
+import { useMoreInfoModal } from '@/entities/Modals/MoreInfoInvoices/logic/useMoreInfoModal.model'
+import { useInvoicesInfoQuery } from '@/shared/service/hooks'
 
 import type { useInvoicesTableType } from '../assets/useInvoicesTable.type'
 
@@ -17,10 +17,12 @@ export const useInvoicesTable = (): useInvoicesTableType => {
   } = useTranslation()
   const [isEmpty, setIsEmpty] = useState<boolean>(true)
   const { openModal } = useMoreInfoModal()
+  const [page, setPage] = useState<number>(1)
+  const { data: invoicesData, isFetching } = useInvoicesInfoQuery({ page, size: 8 })
 
-  const data = useMemo(
-    () => [
-      {
+  const data = useMemo(() => {
+    if (invoicesData && invoicesData.data && invoicesData.data.items) {
+      return invoicesData?.data?.items.map(() => ({
         id: <CellTable text='#1011' />,
         bankClient: (
           <CellTable
@@ -34,122 +36,17 @@ export const useInvoicesTable = (): useInvoicesTableType => {
         status: <CellTable text={<Status text='Wait' variant='wait' />} />,
         sum: <CellTable text='22 500 RUB' />,
         info: (
-          <Button
-            variant='secondary'
-            icon={<InfoIcon width={20} height={20} />}
-            onClick={() => openModal(1)}
-          />
+          <div className='flex items-center justify-center'>
+            <Button
+              variant='secondary'
+              icon={<InfoIcon width={20} height={20} />}
+              onClick={() => openModal(1)}
+            />
+          </div>
         ),
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-      {
-        id: <CellTable text='#1011' />,
-        bankClient: (
-          <CellTable
-            text='Мозолевский Даниил Сергеевич'
-            icon={<UserInvoiceIcon width={22} height={22} />}
-          />
-        ),
-        idClient: <CellTable text='#15' />,
-        method: <CellTable text='Mastercard' icon={<VisaIcon />} />,
-        date: <CellTable text='10 ноября 2023, 08:23' />,
-        status: <CellTable text={<Status text='Wait' variant='wait' />} />,
-        sum: <CellTable text='22 500 RUB' />,
-        info: <Button variant='secondary' icon={<InfoIcon width={20} height={20} />} />,
-      },
-    ],
-
-    [],
-  )
+      }))
+    } else return []
+  }, [invoicesData])
 
   const columns = useMemo(
     () => [
@@ -190,14 +87,23 @@ export const useInvoicesTable = (): useInvoicesTableType => {
     [language],
   )
 
+  const nextPage = () => setPage(prev => prev + 1)
+  const prevPage = () => setPage(prev => prev - 1)
+
   useEffect(() => {
-    if (data.length > 0) setIsEmpty(false)
+    if (invoicesData && invoicesData.data && invoicesData.data.items.length > 0) setIsEmpty(false)
     else setIsEmpty(true)
-  }, [data])
+  }, [invoicesData])
 
   return {
     data,
     columns,
     isEmpty,
-  } as useInvoicesTableType
+    nextPage,
+    prevPage,
+    page,
+    // Бэкенд ещё не возвращает кол-во страниц
+    totalPages: 10,
+    isFetching,
+  } as const
 }
