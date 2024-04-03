@@ -13,7 +13,7 @@
     "test": "jest",
     "prettier": "prettier",
     "prepare": "husky install",
-    "generate-client": "openapi --input http://localhost:8000/api/v1/openapi.json --output src/shared/service/client --useOptions --useUnionTypes --indent 2",
+    "generate-client": "openapi --input https://pstage.goldex.space/api/v1/openapi.json --output src/shared/service/client --useOptions --useUnionTypes --indent 2",
     "extract-translations": "i18next -c i18next-parser.config.ts --fail-on-warnings"
   },
   "dependencies": {
