@@ -41,7 +41,7 @@
   "labels": {
     "currensy": "Валюта",
     "amount": "Сумма",
-    "address": "Адресс кошелька",
+    "address": "Адрес кошелька",
     "username": "Имя пользователя",
     "currentPassword": "Текущий пароль",
     "newPassword": "Новый пароль",
@@ -83,7 +83,7 @@
     "min": "Минимальное кол-во символов: {{ min }}",
     "max": "Максимальное кол-во символов: {{ max }}"
   },
-  "paginationLabel": "Страница {{ current }} из {{ total }}"
+  "paginationLabel": "Страница {{ current }} из {{ total }}",
   "profileTitle": "Ваш профиль",
   "profileSupText": "Настройте отображение вашего профиля",
   "resetPasswordTitle": "Безопасность",

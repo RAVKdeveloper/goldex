@@ -17,7 +17,7 @@ export const useAddingBalance = (): useAddingBalanceType => {
   const [formData, setFormData] = useState<FormData>({
     addres: '',
     amount: '',
-  })
+  } as const)
 
   const nextStep = () => {
     dispatch(setAmount(formData.amount))
