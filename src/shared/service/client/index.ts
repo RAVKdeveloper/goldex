@@ -30,6 +30,7 @@ export type { Page_UserRead_ } from './models/Page_UserRead_';
 export type { PaymentData } from './models/PaymentData';
 export type { PaymentDirection } from './models/PaymentDirection';
 export type { PaymentMethod } from './models/PaymentMethod';
+export type { PaymentToCurrency } from './models/PaymentToCurrency';
 export type { PaymentUrl } from './models/PaymentUrl';
 export type { PlatformTransactions } from './models/PlatformTransactions';
 export type { Project } from './models/Project';

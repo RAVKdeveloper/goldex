@@ -2,12 +2,14 @@
   "title": {
     "balanceInfo": "Information",
     "invoices": "Invoices",
-    "transactions": "Transactions"
+    "transactions": "Transactions",
+    "accGeneral": "General"
   },
   "subtitle": {
     "balanceInfo": "This section provides all information on balances",
     "invoices": "This section provides all invoice information",
-    "transactions": "This section provides all transaction information"
+    "transactions": "This section provides all transaction information",
+    "accGeneral": "In this section you can add or change your information"
   },
   "profit": "Profit",
   "btn": {
@@ -20,7 +22,8 @@
     "cansel": "Cansel",
     "iSent": "I sent",
     "next": "Next",
-    "prev": "Back"
+    "prev": "Back",
+    "save": "Save"
   },
   "textField": {
     "searchPlaceholder": "Search..."
@@ -38,7 +41,11 @@
   "labels": {
     "currensy": "Currency",
     "amount": "Amount",
-    "address": "Wallet address"
+    "address": "Wallet address",
+    "username": "User Name",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmCurrentPassword": "Confirm new password"
   },
   "table": {
     "header": {
@@ -77,4 +84,8 @@
     "max": "Maximum number of characters: {{ max }}"
   },
   "paginationLabel": "Page {{ current }} of {{ total }}"
+  "profileTitle": "Your profile",
+  "profileSupText": "Customize the display of your profile",
+  "resetPasswordTitle": "Security",
+  "resetPasswordSupText": "Update your password"
 }

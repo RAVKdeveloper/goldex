@@ -10,14 +10,13 @@ export default defineConfig({
     cors: false,
     host: '0.0.0.0',
     // proxy: { '/api': { target: 'http://localhost:8000' } },
-    proxy: { '/api': { target: 'http://23.88.40.65:8000' } },
-    // proxy: {
-    //   '/api': {
-    //     target: 'https://domain.blah',
-    //     changeOrigin: true,
-    //     // secure: false,
-    //   },
-    // },
+    proxy: {
+      '/api': {
+        target: 'https://pstage.goldex.space',
+        changeOrigin: true,
+        // secure: false,
+      },
+    },
   },
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],

@@ -4,6 +4,7 @@
 /* eslint-disable */
 import type { CurrencyType } from './CurrencyType';
 import type { ExchangeRate } from './ExchangeRate';
+import type { PaymentToCurrency } from './PaymentToCurrency';
 import type { ProjectToCurrency } from './ProjectToCurrency';
 import type { TraiderTeamToCurrency } from './TraiderTeamToCurrency';
 /**
@@ -20,5 +21,6 @@ export type Currency = {
   ExchangeRate?: (Array<ExchangeRate> | null);
   ProjectToCurrency?: (Array<ProjectToCurrency> | null);
   TraiderTeamToCurrency?: (Array<TraiderTeamToCurrency> | null);
+  PaymentToCurrency?: (Array<PaymentToCurrency> | null);
 };
 

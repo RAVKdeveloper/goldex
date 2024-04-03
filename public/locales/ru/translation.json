@@ -2,12 +2,14 @@
   "title": {
     "balanceInfo": "Информация",
     "invoices": "Счета",
-    "transactions": "Транзакции"
+    "transactions": "Транзакции",
+    "accGeneral": "Общее"
   },
   "subtitle": {
     "balanceInfo": "В этом разделе представлена вся информация о балансах",
     "invoices": "В этом разделе представлена вся информация о счетах",
-    "transactions": "В этом разделе представлена вся информация о транзакциях"
+    "transactions": "В этом разделе представлена вся информация о транзакциях",
+    "accGeneral": "В этом разделе вы можете добавить или изменить свою информацию"
   },
   "profit": "Профит",
   "btn": {
@@ -20,7 +22,8 @@
     "cansel": "Отмена",
     "iSent": "Я отправил",
     "next": "Далее",
-    "prev": "Назад"
+    "prev": "Назад",
+    "save": "Сохранить"
   },
   "textField": {
     "searchPlaceholder": "Поиск..."
@@ -38,7 +41,11 @@
   "labels": {
     "currensy": "Валюта",
     "amount": "Сумма",
-    "address": "Адресс кошелька"
+    "address": "Адресс кошелька",
+    "username": "Имя пользователя",
+    "currentPassword": "Текущий пароль",
+    "newPassword": "Новый пароль",
+    "confirmCurrentPassword": "Подтвердите новый пароль"
   },
   "table": {
     "header": {
@@ -77,4 +84,8 @@
     "max": "Максимальное кол-во символов: {{ max }}"
   },
   "paginationLabel": "Страница {{ current }} из {{ total }}"
+  "profileTitle": "Ваш профиль",
+  "profileSupText": "Настройте отображение вашего профиля",
+  "resetPasswordTitle": "Безопасность",
+  "resetPasswordSupText": "Обновите свой пароль"
 }

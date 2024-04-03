@@ -5,8 +5,8 @@
 import type { UserRole } from './UserRole';
 export type UserUpdateAdmin = {
   password?: (string | null);
-  blocked?: (boolean | null);
   role?: (UserRole | null);
   username?: (string | null);
+  blocked?: (boolean | null);
 };
 

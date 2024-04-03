@@ -4,6 +4,7 @@
 /* eslint-disable */
 import type { Invoice } from './Invoice';
 import type { PaymentDirection } from './PaymentDirection';
+import type { PaymentToCurrency } from './PaymentToCurrency';
 import type { ProjectCurrencyToPaymentMethod } from './ProjectCurrencyToPaymentMethod';
 import type { TraiderTeamCurrencyToPaymentMethod } from './TraiderTeamCurrencyToPaymentMethod';
 /**
@@ -18,5 +19,6 @@ export type PaymentMethod = {
   ProjectCurrencyToPaymentMethod?: (Array<ProjectCurrencyToPaymentMethod> | null);
   TraiderTeamCurrencyToPaymentMethod?: (Array<TraiderTeamCurrencyToPaymentMethod> | null);
   Invoice?: (Array<Invoice> | null);
+  PaymentToCurrency?: (Array<PaymentToCurrency> | null);
 };
 
