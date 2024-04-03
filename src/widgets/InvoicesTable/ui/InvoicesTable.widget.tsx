@@ -11,7 +11,7 @@ import { NotFoundInvoicesEntity } from '../../../entities'
 import s from '../assets/style.module.css'
 
 export const InvoicesTableWidget: FC = () => {
-  const { data, columns, isEmpty } = useInvoicesTable()
+  const { data, columns, isEmpty, nextPage, prevPage, page, totalPages } = useInvoicesTable()
   const { t } = useTranslation()
 
   return (
@@ -23,13 +23,13 @@ export const InvoicesTableWidget: FC = () => {
           </div>
           <div className={s.pagination}>
             <Pagination
-              currentPage={5}
-              pages={20}
+              currentPage={page}
+              pages={totalPages}
               btnNext={t('btn.next')}
               btnPrev={t('btn.prev')}
-              textContent='Page 5 of 20'
-              next={() => confirm('next')}
-              back={() => confirm('prev')}
+              textContent={t('paginationLabel', { current: page, total: totalPages })}
+              next={nextPage}
+              back={prevPage}
             />
           </div>
         </>

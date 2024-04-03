@@ -48,14 +48,6 @@ export const useMoreInfoModal = (): useMoreInfoModalType => {
       value: 'Оплачено',
     },
     {
-      key: t('invoice.amount'),
-      value: '1,240',
-    },
-    {
-      key: t('invoice.status'),
-      value: 'Оплачено',
-    },
-    {
       key: 'ID',
       value: '1011',
     },

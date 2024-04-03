@@ -83,6 +83,7 @@
     "min": "Минимальное кол-во символов: {{ min }}",
     "max": "Максимальное кол-во символов: {{ max }}"
   },
+  "paginationLabel": "Страница {{ current }} из {{ total }}"
   "profileTitle": "Ваш профиль",
   "profileSupText": "Настройте отображение вашего профиля",
   "resetPasswordTitle": "Безопасность",
