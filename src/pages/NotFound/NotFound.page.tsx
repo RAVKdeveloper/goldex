@@ -6,7 +6,7 @@ import { useAuth } from '@/shared/wrappers/Layout/logic/useAuth.model'
 
 import { AppRoutes } from '@/app/routes/app.routes'
 
-export const NotFoundPage: FC = () => {
+const NotFoundPage: FC = () => {
   const navigate = useNavigate()
   const { pathname } = useLocation()
   const { isAuth } = useAuth()
@@ -17,3 +17,5 @@ export const NotFoundPage: FC = () => {
 
   return <>Not Found</>
 }
+
+export default NotFoundPage

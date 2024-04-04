@@ -8,7 +8,7 @@ import { TitlePage, MoreInfoInvoicesEntity } from '../../entities'
 
 import s from './style.module.css'
 
-export const InvoicesPage: FC = () => {
+const InvoicesPage: FC = () => {
   const { t } = useTranslation()
 
   return (
@@ -24,3 +24,5 @@ export const InvoicesPage: FC = () => {
     </>
   )
 }
+
+export default InvoicesPage

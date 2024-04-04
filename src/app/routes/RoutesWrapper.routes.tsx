@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, Suspense } from 'react'
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -11,15 +11,17 @@ export const RoutesWrapper: FC = () => {
 
   return (
     <>
-      <Routes>
-        {isAuth
-          ? PagesRoutesWithComponents.map(({ id, route, Page }) => (
-              <Route key={id} path={route} Component={Page} />
-            ))
-          : PagesRoutesNoAuth.map(({ id, route, Page }) => (
-              <Route key={id} path={route} Component={Page} />
-            ))}
-      </Routes>
+      <Suspense fallback='Loading...'>
+        <Routes>
+          {isAuth
+            ? PagesRoutesWithComponents.map(({ id, route, Page }) => (
+                <Route key={id} path={route} Component={Page} />
+              ))
+            : PagesRoutesNoAuth.map(({ id, route, Page }) => (
+                <Route key={id} path={route} Component={Page} />
+              ))}
+        </Routes>
+      </Suspense>
     </>
   )
 }
