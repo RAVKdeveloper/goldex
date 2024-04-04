@@ -81,9 +81,10 @@
   "validateErrors": {
     "empty": "Поле обязательно для заполнения",
     "min": "Минимальное кол-во символов: {{ min }}",
-    "max": "Максимальное кол-во символов: {{ max }}"
+    "max": "Максимальное кол-во символов: {{ max }}",
+    "passwordConfirmationError": "Новый пароль и подтверждение пароля не совпадают"
   },
-  "paginationLabel": "Страница {{ current }} из {{ total }}"
+  "paginationLabel": "Страница {{ current }} из {{ total }}",
   "profileTitle": "Ваш профиль",
   "profileSupText": "Настройте отображение вашего профиля",
   "resetPasswordTitle": "Безопасность",
