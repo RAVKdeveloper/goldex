@@ -5,4 +5,5 @@ export interface useSidebarType {
   lng: string
   isOpenSidebar: boolean
   openSidebar: () => void
+  balances: { RUB: number; USDT: number }
 }
