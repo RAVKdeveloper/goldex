@@ -8,7 +8,7 @@ import { useSidebar } from './logic/useSidebar.model'
 import s from './assets/style.module.css'
 
 export const SidebarWidget: FC = () => {
-  const { open, changeLng, isOpenModal, lng, isOpenSidebar, openSidebar } = useSidebar()
+  const { open, changeLng, isOpenModal, lng, isOpenSidebar, openSidebar, balances } = useSidebar()
 
   const openSidebarClass = `${s.sidebar} ${isOpenSidebar && s.open}`
 
@@ -17,10 +17,10 @@ export const SidebarWidget: FC = () => {
       <div className={s.mobile}>
         <SidebarMobile avatarUrl='wjiewijrjioe' userName='Rayan' onOpenSidebar={openSidebar} />
       </div>
-      <div className={openSidebarClass}>
+      <div className={openSidebarClass} data-testid='sidebar'>
         <Sidebar
-          balanceRub={32335}
-          balanceUSDT={324243243}
+          balanceRub={balances.RUB}
+          balanceUSDT={balances.USDT}
           user={{ id: 3, url: '/', avatar: 'ewrewr', name: 'Reyli', role: 'Operator' }}
           links={ObjLinksSidebar}
           notifications={{
