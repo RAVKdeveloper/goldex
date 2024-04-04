@@ -81,7 +81,8 @@
   "validateErrors": {
     "empty": "Required field",
     "min": "Minimum number of characters: {{ min }}",
-    "max": "Maximum number of characters: {{ max }}"
+    "max": "Maximum number of characters: {{ max }}",
+    "passwordConfirmationError": "New password and confirmation password do not match"
   },
   "paginationLabel": "Page {{ current }} of {{ total }}",
   "profileTitle": "Your profile",
