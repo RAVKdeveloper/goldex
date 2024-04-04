@@ -1,12 +1,12 @@
-import {
-  ProjectsPage,
-  InvoicesPage,
-  TransactionsPage,
-  BalanceInfoPage,
-  LoginPage,
-  NotFoundPage,
-  AccountGeneralPage,
-} from '@/pages'
+import { lazy } from 'react'
+
+const ProjectsPage = lazy(() => import('@/pages/Projects/Projects.page'))
+const BalanceInfoPage = lazy(() => import('@/pages/Balance/Info/BalanceInfo.page'))
+const InvoicesPage = lazy(() => import('@/pages/Invoises/Invoises.page'))
+const TransactionsPage = lazy(() => import('@/pages/Transactions/Transactions.page'))
+const LoginPage = lazy(() => import('@/pages/Login/Login.page'))
+const NotFoundPage = lazy(() => import('@/pages/NotFound/NotFound.page'))
+const AccountGeneralPage = lazy(() => import('@/pages/Account/AccountGeneral.page'))
 
 import { AppRoutes } from './app.routes'
 

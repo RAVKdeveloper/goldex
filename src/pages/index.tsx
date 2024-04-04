@@ -1,8 +1,17 @@
-import './index.css'
-export { ProjectsPage } from './Projects/Projects.page'
-export { InvoicesPage } from './Invoises/Invoises.page'
-export { TransactionsPage } from './Transactions/Transactions.page'
-export { BalanceInfoPage } from './Balance/Info/BalanceInfo.page'
-export { LoginPage } from './Login/Login.page'
-export { AccountGeneralPage } from './Account/AccountGeneral.page'
-export { NotFoundPage } from './NotFound/NotFound.page'
+import ProjectsPage from './Projects/Projects.page'
+import InvoicesPage from './Invoises/Invoises.page'
+import TransactionsPage from './Transactions/Transactions.page'
+import BalanceInfoPage from './Balance/Info/BalanceInfo.page'
+import LoginPage from './Login/Login.page'
+import AccountGeneralPage from './Account/AccountGeneral.page'
+import NotFoundPage from './NotFound/NotFound.page'
+
+export {
+  BalanceInfoPage,
+  InvoicesPage,
+  TransactionsPage,
+  LoginPage,
+  ProjectsPage,
+  AccountGeneralPage,
+  NotFoundPage,
+}

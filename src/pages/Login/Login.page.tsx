@@ -4,10 +4,12 @@ import { LoginFormEntity } from '@/entities'
 
 import s from './style.module.css'
 
-export const LoginPage: FC = () => {
+const LoginPage: FC = () => {
   return (
     <main className={s.root}>
       <LoginFormEntity />
     </main>
   )
 }
+
+export default LoginPage

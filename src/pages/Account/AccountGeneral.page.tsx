@@ -6,7 +6,7 @@ import { ProfileFormEntity, ResetPasswordFormEntity, TitlePage } from '@/entitie
 
 import s from './style.module.css'
 
-export const AccountGeneralPage: FC = () => {
+const AccountGeneralPage: FC = () => {
   const { t } = useTranslation()
 
   return (
@@ -21,3 +21,5 @@ export const AccountGeneralPage: FC = () => {
     </main>
   )
 }
+
+export default AccountGeneralPage

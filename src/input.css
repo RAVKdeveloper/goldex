@@ -24,4 +24,8 @@
   html {
     font-family: 'Roboto Mono', sans-serif;
   }
+
+  main {
+    @apply md:pl-64 bg-bg-primary min-h-screen md:pt-6 pr-5 pt-18 pl-5;
+  }
 }

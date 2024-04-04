@@ -7,7 +7,7 @@ import { BalancesActionsFeatures } from '@/features'
 
 import s from './style.module.css'
 
-export const BalanceInfoPage: FC = () => {
+const BalanceInfoPage: FC = () => {
   const { t } = useTranslation()
 
   return (
@@ -24,3 +24,5 @@ export const BalanceInfoPage: FC = () => {
     </>
   )
 }
+
+export default BalanceInfoPage
