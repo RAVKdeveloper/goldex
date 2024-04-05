@@ -11,7 +11,7 @@ export const ProjectCardEntity: FC = () => {
   const { open, isOpen, isBlocked, blocked } = useProjectCard()
 
   return (
-    <div className={s.root}>
+    <div className={s.root} data-testid='projectCard'>
       <ProjectCard
         name='IJDJI'
         status='active'
