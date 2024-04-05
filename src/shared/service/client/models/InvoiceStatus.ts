@@ -2,4 +2,4 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type CurrencyType = 'FIAT' | 'CRYPTO' | 'CASH' | 'EMONEY';
+export type InvoiceStatus = 'WAIT' | 'PAID' | 'EXPIRED' | 'REJECTED';

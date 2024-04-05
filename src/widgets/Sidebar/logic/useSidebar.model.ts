@@ -27,7 +27,7 @@ export const useSidebar = (): useSidebarType => {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error
       const obj: { RUB: number; USDT: number } = Object.fromEntries(
-        data.data.map(({ exchange, balance }) => [exchange, balance]),
+        data.data.map(({ type, balance }) => [type, balance]),
       )
 
       return obj

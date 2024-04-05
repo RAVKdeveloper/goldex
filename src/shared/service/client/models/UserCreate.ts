@@ -4,8 +4,8 @@
 /* eslint-disable */
 import type { UserRole } from './UserRole';
 export type UserCreate = {
+  username: string;
   password: string;
   role: UserRole;
-  username: string;
 };
 

@@ -3,13 +3,15 @@
     "balanceInfo": "Information",
     "invoices": "Invoices",
     "transactions": "Transactions",
-    "accGeneral": "General"
+    "accGeneral": "General",
+    "projects": "Projects"
   },
   "subtitle": {
     "balanceInfo": "This section provides all information on balances",
     "invoices": "This section provides all invoice information",
     "transactions": "This section provides all transaction information",
-    "accGeneral": "In this section you can add or change your information"
+    "accGeneral": "In this section you can add or change your information",
+    "projects": "This section provides all the information about balances"
   },
   "profit": "Profit",
   "btn": {
@@ -33,7 +35,12 @@
       "title": "Addition"
     },
     "withdraw": "Withdraw",
-    "invoices": "Invoice"
+    "invoices": "Invoice",
+    "projectCard": {
+      "key": "API key",
+      "blocked": "Block",
+      "unblocked": "Unblock"
+    }
   },
   "placeholders": {
     "noselected": "Not selected"

@@ -2,9 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-import type { InvoiceReadWithRelations } from './InvoiceReadWithRelations';
-export type Page_InvoiceReadWithRelations_ = {
-  items: Array<InvoiceReadWithRelations>;
+import type { InvoiceReadForTable } from './InvoiceReadForTable';
+export type Page_InvoiceReadForTable_ = {
+  items: Array<InvoiceReadForTable>;
   total: (number | null);
   page: (number | null);
   size: (number | null);

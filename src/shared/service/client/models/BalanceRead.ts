@@ -4,7 +4,6 @@
 /* eslint-disable */
 export type BalanceRead = {
   balance: number;
-  image: string;
-  exchange: string;
+  type: string;
 };
 
