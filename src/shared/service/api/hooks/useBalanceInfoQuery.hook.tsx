@@ -5,6 +5,6 @@ import { BalancesService } from '../../client'
 export const useBalanceInfoQuery = () => {
   return useQuery({
     queryKey: ['getBalances'],
-    queryFn: BalancesService.getOwnBalance,
+    queryFn: BalancesService.getTotalBalances,
   })
 }

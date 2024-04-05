@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type UserUpdate = {
-  password?: (string | null);
   username?: (string | null);
+  password?: (string | null);
 };
 

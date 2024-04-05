@@ -2,4 +2,7 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type PaymentDirection = 'INPUT' | 'OUTPUT';
+export type StatusOk = {
+  status?: string;
+};
+

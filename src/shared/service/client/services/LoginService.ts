@@ -27,6 +27,7 @@ export class LoginService {
       mediaType: 'application/json',
       errors: {
         400: `Username or Password incorrect`,
+        403: `The user doesn't have enough privileges`,
         422: `Validation Error`,
       },
     });
@@ -49,6 +50,7 @@ export class LoginService {
       mediaType: 'application/x-www-form-urlencoded',
       errors: {
         400: `Username or Password incorrect`,
+        403: `The user doesn't have enough privileges`,
         422: `Validation Error`,
       },
     });
