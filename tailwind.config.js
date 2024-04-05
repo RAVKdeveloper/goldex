@@ -21,6 +21,7 @@ export default {
         'text-secondary': '#FFFFFF66',
         'text-white': '#fff',
         'text-accent': '#73E5CF',
+        'transperant-white': 'rgba(255, 255, 255, 0.04)',
       },
       padding: {
         18: '4.750rem',
